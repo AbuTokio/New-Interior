@@ -1,0 +1,35 @@
+:root {
+  /* # COLORS */
+  --white: #ffffff;
+  --black: #000000;
+  --dim-gray: #6a6a6a;
+  --mountain-pine: #3a4f52;
+  --ash-blue: #c3c9cc;
+  --norse-blue: #4da7ca;
+  --cerebral-gray: #cccccc;
+  --artist-blue: #02383a;
+  --december-eve: #405162;
+  --blue-wing-teal: #2b3e51;
+  --coronation: #f1f0f0;
+}
+
+@font-face {
+  font-family: "AlegreyaSans";
+  src: url("../fonts/AlegreyaSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: "AlegreyaSC";
+  src: url("../fonts/AlegreyaSC-Regular.ttf");
+}
+
+@font-face {
+  font-family: "NixieOne";
+  src: url("../fonts/NixieOne-Regular.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
