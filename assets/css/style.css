@@ -140,10 +140,6 @@ header {
   justify-content: space-between;
 }
 
-.portfolio-header-description,
-.article-type-blank-header-description {
-}
-
 .portfolio-header-description h3,
 .article-type-blank-header-description h3 {
   color: var(--mountain-pine);
@@ -235,10 +231,6 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 6rem;
-}
-
-.services-header,
-.article-type-bg-header {
 }
 
 .services-header h3,
@@ -349,12 +341,6 @@ header {
   background-image: url("../img/lower-section-bg.png");
 }
 
-.parallax-container {
-}
-
-.parallax-container h3 {
-}
-
 .parallax-container button {
   border: 1px solid var(--white);
   color: var(--white);
@@ -442,9 +428,6 @@ header {
 
 .contact-container {
   gap: 30px;
-}
-
-.contact-container h3 {
 }
 
 .contact-form {
