@@ -66,11 +66,13 @@ header {
   font-size: 2.57rem;
   font-weight: 500;
   line-height: 2.83rem;
+  z-index: 999;
 }
 
 .hamburger {
   height: 28px;
   width: 24px;
+  z-index: 999;
 }
 
 .hamburger img {

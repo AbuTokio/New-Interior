@@ -1,0 +1,64 @@
+@media only screen and (min-width: 992px) {
+  /* # HEADER */
+
+  .navbar h1:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  .hamburger:hover {
+    cursor: pointer;
+  }
+
+  /* # PORTFOLIO */
+
+  .article-type-blank-header a button {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .article-type-blank-header a:hover button {
+    color: var(--white);
+    background-color: var(--mountain-pine);
+    cursor: pointer;
+  }
+
+  .portfolio-item-container:hover .fill-container,
+  .portfolio-item-container:hover .portfolio-item-btn {
+    display: initial;
+    cursor: pointer;
+  }
+
+  .portfolio-item-container .portfolio-item-btn:hover {
+    background-color: var(--white);
+    color: var(--artist-blue-70);
+  }
+
+  .portfolio-item-container img {
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .portfolio-item-container:hover img {
+    transform: scale(2);
+  }
+
+  /* # BLOG */
+
+  .blog-item-container a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+
+  /* # PARALLAX */
+
+  .parallax-container button,
+  .contact-form button {
+    transition: all 0.3s ease-in-out;
+  }
+
+  .parallax-container button:hover,
+  .contact-form button:hover {
+    color: var(--black);
+    background-color: var(--white);
+    cursor: pointer;
+  }
+}
