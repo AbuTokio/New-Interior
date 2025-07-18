@@ -1,0 +1,63 @@
+@media only screen and (min-width: 1920px) {
+  /* # HEADER */
+
+  header {
+    height: 1200px;
+  }
+
+  /* # INTRO */
+
+  .intro {
+    height: 1200px;
+  }
+
+  .intro h2 {
+    font-size: 6rem;
+  }
+
+  .intro p {
+    font-size: 2rem;
+  }
+
+  /* # PORTFOLIO */
+
+  .section-type-blank {
+    padding: 2rem 8rem;
+  }
+
+  .portfolio-items {
+    padding: 4rem 0;
+    grid-template-columns: repeat(3, 550px);
+  }
+
+  .portfolio-item-container {
+    height: 326px;
+    width: 550px;
+  }
+
+  /* # SERVICES */
+
+  .section-type-bg {
+    padding: 12rem 12rem;
+  }
+
+  .services-items {
+    gap: 6rem;
+  }
+
+  /* # TESTIMONIALS */
+
+  .testimonials-container {
+    padding: 0 8rem;
+  }
+
+  .testimonials-items {
+    gap: 6rem;
+  }
+
+  /* # CONTACT */
+
+  .contact-container {
+    padding: 2rem 34rem;
+  }
+}
